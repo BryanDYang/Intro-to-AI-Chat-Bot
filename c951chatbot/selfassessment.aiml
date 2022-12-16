@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+	    <pattern>SELF ASSESSMENT</pattern>
+	    <template>
+	        This self-assessment will help you identify 
+	        a tech career with the best fit based on your interest.
+	        <reply>
+	            <text>Start Self-Career Assessment</text>
+	            <postback>START SELF ASSESSMENT</postback>
+	        </reply>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>START SELF ASSESSMENT</pattern>
+	    <template>
+	        Which one interests you more?
+	        
+	        <reply>
+	            <text>Coding/Programming</text>
+	            <postback>CODING PROGRAMMING</postback>
+	        </reply>
+	        
+	        <reply>
+	            <text>Computer Networking</text>
+	            <postback>COMPUTER NETWORKING</postback>
+	        </reply>
+	        
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>CODING PROGRAMMING</pattern>
+	    <template>
+	        Do you want to be involved in the whole deisgn and development process?
+	        
+	        <reply>
+	            <text>Yes</text>
+	            <postback>SW ENG</postback>
+	        </reply>
+	        
+	        <reply>
+	            <text>No</text>
+	            <postback>NO SW ENG</postback>
+	        </reply>
+	        
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>NO SW ENG</pattern>
+	    <template>
+	        Do you enjoy technolgies and interested in the back end?
+	        
+	        <reply>
+	            <text>Yes</text>
+	            <postback>WEB DEV</postback>
+	        </reply>
+	        
+	        <reply>
+	            <text>No</text>
+	            <postback>NO MATCH</postback>
+	        </reply>
+	        
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>COMPUTER NETWORKING</pattern>
+	    <template>
+	        Are you interseted in how computer information is stored, 
+	        accessed, secured, and optimized for a real-world business needs?
+	        
+	        <reply>
+	            <text>Yes</text>
+	            <postback>DATABASE ADMIN</postback>
+	        </reply>
+	        
+	        <reply>
+	            <text>No</text>
+	            <postback>NO DATABASE ADMIN</postback>
+	        </reply>
+	        
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>NO DATABASE ADMIN</pattern>
+	    <template>
+	        Are you interseted in how to maintain and test (flows and exploits) the network secuirty of a company?
+	        
+	        <reply>
+	            <text>Yes</text>
+	            <postback>SECURITY ANALYST</postback>
+	        </reply>
+	        
+	        <reply>
+	            <text>No</text>
+	            <postback>NO SECURITY ANALYST</postback>
+	        </reply>
+	        
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>NO SECURITY ANALYST</pattern>
+	    <template>
+	        Do you enjoy problem solving complex problems for tangible hardwares with some software work?
+	        
+	        <reply>
+	            <text>Yes</text>
+	            <postback>COMPUTER ENG</postback>
+	        </reply>
+	        
+	        <reply>
+	            <text>No</text>
+	            <postback>NO COMPUTER ENG</postback>
+	        </reply>
+	        
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>NO COMPUTER ENG</pattern>
+	    <template>
+	        Do you love technology in general? Do you enjoy creating things that
+	        are virtual and visually satisifying/attractive?
+	        
+	        <reply>
+	            <text>Yes</text>
+	            <postback>WEB DEV</postback>
+	        </reply>
+	        <reply>
+	            <text>No</text>
+	            <postback>NO MATCH</postback>
+	        </reply>
+	        
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>NO MATCH</pattern>
+	    <template>
+	        None of the popular tech careers match your self-assessment results.
+	        However, there are more careers in the tech space. 
+	        I recommend looking into this  
+	        <link>
+	            <text>website</text>
+	            <url>https://www.computerscience.org/careers/</url>
+	        </link>
+	        
+	    </template>
+    </category>
+	
+</aiml>

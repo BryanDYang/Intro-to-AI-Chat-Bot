@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <!-- pratice code
+        <category>
+            <pattern>MY NAME IS * *</pattern>
+            <template>
+                Hi <formal><star/></formal> <formal><star index="2"></star></formal><srai>MAINMENU</srai>
+            </template>
+        </category>
+        
+        <category>
+            <pattern>MY NAME IS *</pattern>
+            <template>
+                Hi <formal><star/></formal><srai>MAINMENU</srai>
+            </template>
+        </category>
+    -->
+
+    <!-- Main menu options-->
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            Hi, my name is Bryan. 
+            I'll be your assistant for your career assessment.
+            <srai>MAIN MENU</srai>
+        </template>
+    </category>
+    
+    <!-- Execption catch-->
+    <category>
+        <pattern>HI ^</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+
+    <category>
+        <pattern>HELLO ^</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+    
+    <!-- Main Menu options-->
+    <category>
+        <pattern>MAIN MENU</pattern>
+        <template>
+            <break></break>
+            Please select an option below.
+            <button>
+                <text>
+                    Take a career self-assessment
+                </text>
+                <postback>
+                    SELF ASSESSMENT
+                </postback>
+            </button>
+            <button>
+                <text>
+                    View popular tech careers that you may be interested below.
+                </text>
+                <postback>
+                    TECH CAREERS
+                </postback>
+            </button>
+        </template>
+    </category>
+
+    <!-- Tech Careers Menu -->
+    <category>
+        <pattern>TECH CAREERS</pattern>
+        <template>
+            
+            Below are 5 popular Tech Careers.
+            
+            <button>
+                <text>Software Engineer</text>
+                <postback>SW ENG</postback>
+            </button>
+            <button>
+                <text>Web Developer</text>
+                <postback>WEB DEV</postback>
+            </button>
+            <button>
+                <text>UI/UX Engineer</text>
+                <postback>UIUX ENG</postback>
+            </button>
+            <button>
+                <text>Computer Engineer</text>
+                <postback>COMPUTER ENG</postback>
+            </button>
+            <button>
+                <text>Information Security Analyst</text>
+                <postback>SECURITY ANALYST</postback>
+            </button>
+            
+        </template>
+    </category>
+	
+</aiml>

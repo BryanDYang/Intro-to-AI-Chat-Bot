@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+	    <pattern>SW ENG</pattern>
+	    <template>
+	        Software engineers are the the master minds behind computer softwares and programs.
+	        Some software engineers develop the applications to enable people to do specific tasks on 
+	        a computer or another electronic devices. Other software engineers develop the underlying
+	        operating systems for the device themselves or network controls.
+	        
+	        <link>
+	            <text>More information on the software engineers can be found here.</text>
+	            <url>https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm</url>
+	        </link>
+	        
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>DATABASE ADMIN</pattern>
+	    <template>
+	        Database Adminstrators utilitze specialized softwares to store and organize data 
+	        such as customer records and financial information. They make data available for 
+	        users and secure from unauthorized users.
+	        
+	        <link>
+                <text>More information on the database adminstrators can be found here.</text>
+                <url>https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm#tab-2</url>
+            </link>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>COMPUTER ENG</pattern>
+	    <template>
+	        Computer engineers design, research, develop, and test computer software systems and hardware
+	        components such as processors, memory devices, circuit boards, networks, and routers.
+	        
+	        <link>
+	            <text>More information on the computer engineers can be found here.</text>
+	            <url>https://www.bls.gov/ooh/architecture-and-engineering/computer-hardware-engineers.htm#tab-2</url>
+	        </link>
+	        
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>WEB DEV</pattern>
+	    <template>
+	        Website developers design and create different websites. They are also responsible for the overall
+	        design and maintenance of the website with many techincal aspects such as performance capacity.
+	        In addition, website developers often times create website contents.
+	        
+	        <link>
+	            <text>More information on the website developers can be found here.</text>
+	            <url>https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm#tab-2</url>
+	        </link>
+	        
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>UIUX ENG</pattern>
+	    <template>
+	        UI/UX engineers design and ensure the sites engagement.
+	        Once the site design is created, UI/UX engineers collaborate with
+	        web developers and software engineers to pass the site design ideas.
+	        
+	        <link>
+	            <text>More information on UI/UX engineers can be found here.</text>
+	            <url>https://www.computerscience.org/careers/web-design/</url>
+	        </link>
+	        
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>SECURITY ANALYST</pattern>
+	    <template>
+	        Information security analysts plan and execute secuirty measures to protect
+	        a company's computer systems and networks. They are responsible to maintain 
+	        and keep the secuirty measures as the cyberattackts increase. 
+	        
+	        <link>
+	            <text>More information on the information security analyst can be found here.</text>
+	            <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm#tab-2</url>
+	        </link>
+	        
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>^ SOFTWARE ENGINEER ^</pattern>
+	    <template>
+	        <srai>SW ENG</srai>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>^ DATABASE ADMINISTRATOR ^</pattern>
+	    <template>
+	        <srai>DATABASE ADMIN</srai>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>^ COMPUTER ENGINEER ^</pattern>
+	    <template>
+	        <srai>COMPUTER ENG</srai>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>^ COMPUTER HARDWARE ENGINEER ^</pattern>
+	    <template>
+	        <srai>COMPUTER ENG</srai>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>^ WEB DEVELOPER ^</pattern>
+	    <template>
+	        <srai>WEB DEV</srai>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>^ UIUX ENGINEER ^</pattern>
+	    <template>
+	        <srai>UIUX ENG</srai>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>^ SECURITY ANALYST ^</pattern>
+	    <template>
+	        <srai>SECURITY ANALYST</srai>
+	    </template>
+    </category>
+    
+</aiml>
